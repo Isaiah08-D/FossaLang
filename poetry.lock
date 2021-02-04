@@ -1,0 +1,31 @@
+[[package]]
+category = "main"
+description = "ASCII Art Library For Python"
+name = "art"
+optional = false
+python-versions = ">=2.7"
+version = "5.1"
+
+[package.extras]
+dev = ["coverage (>=4.1)", "codecov (>=2.0.15)", "vulture (>=1.0)", "bandit (>=1.5.1)", "pydocstyle (>=3.0.0)"]
+
+[[package]]
+category = "main"
+description = "Simple library for color and formatting to terminal"
+name = "colored"
+optional = false
+python-versions = "*"
+version = "1.4.2"
+
+[metadata]
+content-hash = "2d568db1877c31a23a4335c10fdcc58ecdf8cdf121d0072680633febc4cdbe0b"
+python-versions = "^3.8"
+
+[metadata.files]
+art = [
+    {file = "art-5.1-py2.py3-none-any.whl", hash = "sha256:94b2f457dd10c20efe426eb79f752d03845cee80f262e00cbb4fa77dff768385"},
+    {file = "art-5.1.tar.gz", hash = "sha256:380cb9a3bf97c6a3e6a90a7ab7d20b74aec0a1a4294f921ec3a8eb1057f37180"},
+]
+colored = [
+    {file = "colored-1.4.2.tar.gz", hash = "sha256:056fac09d9e39b34296e7618897ed1b8c274f98423770c2980d829fd670955ed"},
+]
